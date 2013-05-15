@@ -10,6 +10,7 @@
 		E88B7D6B17417173005F517B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E88B7D6A17417173005F517B /* Foundation.framework */; };
 		E88B7D6E17417173005F517B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E88B7D6D17417173005F517B /* main.m */; };
 		E88B7D7217417173005F517B /* FootyAppTester.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = E88B7D7117417173005F517B /* FootyAppTester.1 */; };
+		E88B7D7D17417B8D005F517B /* Teams.m in Sources */ = {isa = PBXBuildFile; fileRef = E88B7D7C17417B8D005F517B /* Teams.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		E88B7D6D17417173005F517B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E88B7D7017417173005F517B /* FootyAppTester-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FootyAppTester-Prefix.pch"; sourceTree = "<group>"; };
 		E88B7D7117417173005F517B /* FootyAppTester.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = FootyAppTester.1; sourceTree = "<group>"; };
+		E88B7D7B17417B8D005F517B /* Teams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Teams.h; path = FootyAppTester/Teams.h; sourceTree = "<group>"; };
+		E88B7D7C17417B8D005F517B /* Teams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Teams.m; path = FootyAppTester/Teams.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +51,8 @@
 		E88B7D5E17417173005F517B = {
 			isa = PBXGroup;
 			children = (
+				E88B7D7B17417B8D005F517B /* Teams.h */,
+				E88B7D7C17417B8D005F517B /* Teams.m */,
 				E88B7D6C17417173005F517B /* FootyAppTester */,
 				E88B7D6917417173005F517B /* Frameworks */,
 				E88B7D6817417173005F517B /* Products */,
@@ -140,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E88B7D6E17417173005F517B /* main.m in Sources */,
+				E88B7D7D17417B8D005F517B /* Teams.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -12,10 +12,11 @@
 {
     NSString *teamName;
     int points;
+    int goalDifference;
 }
 
 @property (nonatomic, copy) NSString *teamName;
 @property (nonatomic) int points;
-
+@property int goalDifference;
 
 @end

@@ -10,11 +10,12 @@
 
 @implementation Teams
 
-@synthesize teamName, points;
+@synthesize teamName, points, goalDifference;
+
 
 - (NSString *) description
 {
-    return [NSString stringWithFormat:@"<%@ - %d>", [self teamName], [self points]];
+    return [NSString stringWithFormat:@"%@(PTS:%d GD:%d):", [self teamName], [self points], [self goalDifference]];
 }
 
 @end
